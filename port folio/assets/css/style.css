@@ -23,10 +23,16 @@ body{
 }
 
 .services{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     position: relative;
     color: sandybrown;
+    padding: 5rem 0rem;
+}
+.project{
+    height: 100% !important;
+    width: 100vw;
+    padding: 5rem 0rem;
 }
 .hero .container h5 {
     color: sandybrown;
@@ -135,6 +141,8 @@ body{
 
 .reviews{
     background-color: sandybrown;
+    height: 100% !important;
+    padding: 5rem 0rem;
 }
 .vet{
     color: rgb(7, 111, 172);
@@ -156,8 +164,9 @@ body{
 
 .about {
     background: sandybrown;
-    height: 100vh;
+    height: 100%;
     color:  rgb(7, 111, 172);
+    padding: 5rem 0rem;
 }
 
 @keyframes bounce {
